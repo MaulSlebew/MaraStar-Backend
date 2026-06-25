@@ -20,11 +20,12 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        'https://hehehehabruh.vercel.app/', // <-- GANTI pakai URL LIVE VERCEL-mu!
         'http://localhost:5173', // Biar di lokal laptop tetep aman
     ],
 
-    'allowed_origins_patterns' => [],
+    'allowed_origins_patterns' => [
+        '^https://.*\.vercel\.app$',
+    ],
 
     'allowed_headers' => ['*'],
 
