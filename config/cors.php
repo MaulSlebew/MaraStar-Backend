@@ -20,7 +20,7 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        'https://nama-project-frontend-mu.vercel.app', // <-- GANTI pakai URL LIVE VERCEL-mu!
+        'https://hehehehabruh.vercel.app/', // <-- GANTI pakai URL LIVE VERCEL-mu!
         'http://localhost:5173', // Biar di lokal laptop tetep aman
     ],
 
