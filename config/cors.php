@@ -20,8 +20,8 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        'dashboard-blablablacloth.up.railway.app',
-        'http://localhost:5173',
+        'https://nama-project-frontend-mu.vercel.app', // <-- GANTI pakai URL LIVE VERCEL-mu!
+        'http://localhost:5173', // Biar di lokal laptop tetep aman
     ],
 
     'allowed_origins_patterns' => [],
