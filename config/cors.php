@@ -20,11 +20,13 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        'http://localhost:5173', // Biar di lokal laptop tetep aman
+        'http://localhost:5173',
+        'http://localhost:3000',
+        'https://hehehehabruh.vercel.app',
     ],
 
     'allowed_origins_patterns' => [
-        '^https://.*\.vercel\.app$',
+        '/^https:\/\/[a-z0-9-]+\.vercel\.app$/',
     ],
 
     'allowed_headers' => ['*'],
